@@ -56,4 +56,11 @@ public class Evento {
 		this.horario = horario;
 	}
 
+	@Override
+	public String toString() {
+		return "Evento [id=" + id + ", nome=" + nome + ", data=" + data + ", local=" + local + ", horario=" + horario
+				+ "]";
+	}
+
+	
 }
