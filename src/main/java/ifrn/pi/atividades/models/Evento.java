@@ -53,6 +53,7 @@ public class Evento {
 	}
 
 	public void setHorario(String horario) {
+
 		this.horario = horario;
 	}
 
